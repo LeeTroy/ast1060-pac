@@ -568,7 +568,7 @@ impl core::fmt::Debug for I2cFilterThr3 {
 #[doc = "i2c_filter_thr interface"]
 pub use self::i2c_filter_thr as i2c_filter_thr3;
 #[doc = "spipf"]
-pub type Spipf = crate::Periph<spipf::RegisterBlock, 0x7e79_0000>;
+pub type Spipf = crate::Periph<spipf::RegisterBlock, 0x7e79_1000>;
 impl core::fmt::Debug for Spipf {
     fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
         f.debug_struct("Spipf").finish()
@@ -577,7 +577,7 @@ impl core::fmt::Debug for Spipf {
 #[doc = "spipf"]
 pub mod spipf;
 #[doc = "spipf interface"]
-pub type Spipf1 = crate::Periph<spipf::RegisterBlock, 0x7e79_07d0>;
+pub type Spipf1 = crate::Periph<spipf::RegisterBlock, 0x7e79_2000>;
 impl core::fmt::Debug for Spipf1 {
     fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
         f.debug_struct("Spipf1").finish()
@@ -586,7 +586,7 @@ impl core::fmt::Debug for Spipf1 {
 #[doc = "spipf interface"]
 pub use self::spipf as spipf1;
 #[doc = "spipf interface"]
-pub type Spipf2 = crate::Periph<spipf::RegisterBlock, 0x7e79_0bb8>;
+pub type Spipf2 = crate::Periph<spipf::RegisterBlock, 0x7e79_3000>;
 impl core::fmt::Debug for Spipf2 {
     fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
         f.debug_struct("Spipf2").finish()
@@ -595,7 +595,7 @@ impl core::fmt::Debug for Spipf2 {
 #[doc = "spipf interface"]
 pub use self::spipf as spipf2;
 #[doc = "spipf interface"]
-pub type Spipf3 = crate::Periph<spipf::RegisterBlock, 0x7e79_0fa0>;
+pub type Spipf3 = crate::Periph<spipf::RegisterBlock, 0x7e79_4000>;
 impl core::fmt::Debug for Spipf3 {
     fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
         f.debug_struct("Spipf3").finish()
